@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_route_registration"
+            android:icon="@drawable/ic_add"
+            android:title="Zarejestruj trasę" />
+        <item
+            android:id="@+id/nav_search_route"
+            android:icon="@drawable/ic_search"
+            android:title="Szukaj trasy" />
+        <item
+            android:id="@+id/nav_my_routes"
+            android:icon="@drawable/ic_person"
+            android:title="Moje trasy" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ustawienia" />
+    </group>
+
+</menu>
